@@ -1,0 +1,69 @@
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        table.main {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .main td,
+        .main th {
+            border: 1px solid #ddd;
+            padding: .5rem;
+            font-family: baloo;
+        }
+
+        .main th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .main td {
+            text-align: center;
+            font-size: 1rem;
+        }
+
+
+
+        @font-face {
+            font-family: baloo;
+            src: url(BalooDa2-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: Hind;
+            src: url(BalooDa2-Regular.ttf);
+        }
+
+        .caption {
+            margin: 1rem;
+            font-family: baloo;
+        }
+
+        .caption .cn {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #1B1464;
+        }
+
+        .caption a {
+            color: #006266;
+        }
+
+        .caption p {
+            font-size: 1rem;
+            text-align: justify;
+            letter-spacing: .5px;
+            line-height: 1.5rem;
+        }
+
+        .caption .eti {
+            text-align: right;
+            margin-right: 3rem;
+            margin-bottom: 3rem;
+        }
